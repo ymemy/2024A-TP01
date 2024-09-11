@@ -2,3 +2,4 @@
 # TODO: Importer les modules nécessaires.
 
 water_quantity = ...
+print("2")
