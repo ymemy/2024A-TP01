@@ -1,0 +1,15 @@
+test_upper_case_names (__main__.TestExercice.test_upper_case_names) ... ERROR
+
+======================================================================
+ERROR: test_upper_case_names (__main__.TestExercice.test_upper_case_names)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/yme/Downloads/school/poly/automne 2024/inf1007/exercices-inf1007/ch02_1/test_exercice.py", line 13, in setUp
+    with open('./data/sample_words.txt') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './data/sample_words.txt'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (errors=1)
