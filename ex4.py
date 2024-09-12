@@ -20,8 +20,7 @@ if 50 < battery_level <= 100:
     e = e * 6
 
     distance = a + b + c + d + e
-
-    print(round(distance, 1))
+    print("La distance possible est de", round(distance,2),"km")
 
 elif 25 < battery_level <= 50:
     b = battery_level - 25
@@ -35,8 +34,7 @@ elif 25 < battery_level <= 50:
     e = e * 6
 
     distance = b + c + d + e
-
-    print(round(distance, 1))
+    print("La distance possible est de", round(distance, 2),"km")
 
 elif 10 < battery_level <= 25:
     c = battery_level - 10
@@ -48,8 +46,8 @@ elif 10 < battery_level <= 25:
     e = e * 6
 
     distance = c + d + e
+    print("La distance possible est de", round(distance, 2), "km")
 
-    print(round(distance, 1))
 
 elif 5 < battery_level <= 10:
     d = battery_level - 5
@@ -59,8 +57,7 @@ elif 5 < battery_level <= 10:
     e = e * 6
 
     distance = d + e
-
-    print(round(distance, 1))
+    print("La distance possible est de", round(distance, 2), "km")
 
 elif 0 < battery_level <= 5:
     e = battery_level - 5
@@ -68,8 +65,8 @@ elif 0 < battery_level <= 5:
     e = e * 6
 
     distance = e
+    print("La distance possible est de", round(distance, 2), "km")
 
-    print(round(distance, 1))
 
-else:
+elif battery_level == 0:
     print("La batterie est vide")
