@@ -70,3 +70,6 @@ elif 0 < battery_level <= 5:
     distance = e
 
     print(round(distance, 1))
+
+else:
+    print("La batterie est vide")

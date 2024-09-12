@@ -4,7 +4,7 @@
 valid_char = "GSB" # caractères valides dans la chaîne
 
 country = input("Pays concerné ? ")
-code_medals = input("Chaîne représentant les médailles ? ")
+code_medals = input("Chaine représentant les médailles ? ")
 
 nb_gold = 0 # initialiser le nombre de médailles
 nb_silver = 0
@@ -26,10 +26,8 @@ for char in code_medals:
         nb_bronze += 1
 
 if valid_input == None:
-    print(f'''Médailles:\n
-        - Or: {nb_gold}
-        - Argent: {nb_silver}
-        - Bronze: {nb_bronze}''')
+    print(f'''Médailles:\n- {nb_gold} OR\n- {nb_silver} Argent\n- {nb_bronze} Bronze\n''')
+
 else:
     print("Erreur: Veuillez entrer une chaine valide.")
 
